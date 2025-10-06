@@ -1,0 +1,41 @@
+.button {
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.default {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+}
+
+.default:hover {
+  background-color: #1d4ed8;
+}
+
+.outline {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background: transparent;
+}
+
+.outline:hover {
+  background-color: #eff6ff;
+}
+
+.sizeDefault {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.sizeLg {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.sizeSm {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+}
